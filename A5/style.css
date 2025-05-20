@@ -1,0 +1,28 @@
+
+@media (max-width: 1920px) {
+    body {
+        background: linear-gradient(to right, #ffe100, #1E88E5);
+        font-size: 2vw;
+    }
+}
+@media (max-width: 1024px) and (min-width: 601px) {
+  body {
+    background: linear-gradient(to right, #7ceb7f, #A5D6A7);
+    font-size: 3vw;
+  }
+
+  body:hover {
+    background: linear-gradient(to right, #81C784, #4CAF50);
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: linear-gradient(to right, #BBDEFB, #90CAF9);
+    font-size: 4vw;
+  }
+
+  body:hover {
+    background: linear-gradient(to right, #64B5F6, #1E88E5);
+  }
+}
